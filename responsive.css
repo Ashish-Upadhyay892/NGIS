@@ -1,0 +1,82 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  .margin-minus {
+    margin-top: auto;
+  }
+  .header-box h1 {
+    font-size: 100px;
+  }
+
+  .subscription-form button {
+    width: -webkit-fill-available;
+  }
+
+  .subscription-form input[type="email"] {
+    width: 180px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  img.right-svg-animation {
+    width: -webkit-fill-available;
+  }
+
+  img.left-svg-animation {
+    width: -webkit-fill-available;
+  }
+
+  .step {
+    width: 200px;
+    margin-bottom: 30px !important;
+    margin: 0 auto;
+  }
+
+  .contact-info {
+    padding: 20px;
+  }
+
+  .contact-info .info-box {
+    gap: 10px;
+  }
+
+  .head-box h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .head-box .head-para-text {
+    font-size: 16px;
+  }
+
+  .head-box p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .id-responsive {
+    display: block;
+  }
+
+  .banner-image .highlight-background {
+    position: absolute;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+  }
+
+  img.banner-head-image {
+    position: relative;
+  }
+
+  .hero-section {
+    /* background-color: #f3f0ff; */
+    padding: 30px 0;
+}
+
+img.development-proceess-image {
+  width: -webkit-fill-available;
+  display: block;
+}
+}

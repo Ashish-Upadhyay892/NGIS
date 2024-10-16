@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIS - Technology Solutions</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <section class="bg-background">
+      <div class="sub-menu">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/logo-black.png"
+                style="width: 100px; visibility: hidden"
+                alt=""
+              />
+            </a>
+
+            <div class="navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <div class="contact-info-1 d-none d-lg-flex">
+                  <span class="me-3">
+                    <i class="far fa-phone-alt"></i>
+                    <a
+                      href="tel:+1-888-555-7890"
+                      class="text-decoration-none ms-2"
+                      >For HR Inquiry: (+1)-888-555-7890</a
+                    >
+                  </span>
+                  <span>
+                    <i class="far fa-envelope"></i>
+                    <a
+                      href="mailto:info@example.com"
+                      class="text-decoration-none ms-2"
+                      >Email: info@example.com</a
+                    >
+                  </span>
+                </div>
+              </ul>
+              <div class="social-links">
+                <a href="#" class="me-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class=""><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="images/logo-black.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services-list.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="protflio.html">Portfolio</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            <div class="must-comman">
+              <i class="fa fa-search custom-icon"></i>
+              <button class="btn btn-primary-custom ms-3">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="header-box pb-350">
+          <h1>NGIS</h1>
+          <div class="margin-minus">
+            <h2 class="section-title">
+              Premier
+              <span class="highlight"> Web & Software Development Company </span
+              >Delivering Cutting-Edge, Fully-Optimized Solutions
+            </h2>
+            <p>
+              We are a leading web & software development agency, setting the
+              benchmark for excellence in a highly competitive industry.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-250">
+      <div class="container mt-5">
+        <div class="form-container p-4">
+          <form>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Your Phone Number"
+                />
+              </div>
+              <div class="col-md-6">
+                <select class="form-control">
+                  <option value="" disabled selected>Your Budget</option>
+                  <option value="1">$1000 - $5000</option>
+                  <option value="2">$5000 - $10000</option>
+                  <option value="3">$10000+</option>
+                </select>
+              </div>
+              <div class="col-md-12">
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Project Requirements"
+                ></textarea>
+              </div>
+              <div class="col-md-12">
+                <input
+                  type="file"
+                  class="form-control"
+                  accept=".doc,.xls,.pdf,.txt,.ppt,.zip"
+                  aria-label="Attach Files (Max size: 10MB)"
+                />
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-custom px-4">
+                Send Your Inquiry
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-5 position-relative">
+      <img
+        src="images/hero_shape_3_1 4.png"
+        class="right-svg-animation"
+        alt=""
+        style="top: 0"
+      />
+      <div class="container mt-5">
+        <div class="row mb-4 align-items-center">
+          <div class="col">
+            <div class="head-box">
+              <span class="head-para-text">Services</span>
+              <h2>
+                Our
+                <span class="high"> Web & App Development </span>
+                Services<br />Will Help You Thrive
+              </h2>
+              <p>
+                Empowering your business with cutting-edge web and mobile app
+                solutions for growth and success.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Web Development -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services1.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Web Development</h5>
+                  <ul class="custom-list">
+                    <li>Custom Website Design & Development</li>
+                    <li>E-commerce Solutions</li>
+                    <li>Web Application Development</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Software Development -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services2.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Software Development</h5>
+                  <ul class="custom-list">
+                    <li>Custom Software Development</li>
+                    <li>Enterprise Software Solutions</li>
+                    <li>API Development & Integration</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Mobile App Development -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services3.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Mobile App Development</h5>
+                  <ul class="custom-list">
+                    <li>iOS & Android App Development</li>
+                    <li>Cross-Platform App Development</li>
+                    <li>Mobile UI/UX Design</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Cloud Computing -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services4.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Cloud Computing</h5>
+                  <ul class="custom-list">
+                    <li>Cloud Migration Services</li>
+                    <li>Serverless Architecture</li>
+                    <li>Managed Cloud Services</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- IT Consulting -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services5.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">IT Consulting</h5>
+                  <ul class="custom-list">
+                    <li>Technology Strategy & Advisory</li>
+                    <li>IT Infrastructure Assessment</li>
+                    <li>Digital Transformation Consulting</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- DevOps & Automation -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services6.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">DevOps & Automation</h5>
+                  <ul class="custom-list">
+                    <li>CI/CD Implementation</li>
+                    <li>Infrastructure as Code (IaC)</li>
+                    <li>Automated Testing & QA</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Managed IT Services -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services7.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Managed IT Services</h5>
+                  <ul class="custom-list">
+                    <li>24/7 IT Support</li>
+                    <li>Network & Security Management</li>
+                    <li>Proactive Monitoring</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Digital Marketing Solutions -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services8.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Digital Marketing Solutions</h5>
+                  <ul class="custom-list">
+                    <li>SEO & Content Marketing</li>
+                    <li>Social Media Management</li>
+                    <li>Pay-Per-Click (PPC) Advertising</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services9.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Web Development</h5>
+                  <ul class="custom-list">
+                    <li>Custom Website Design & Development</li>
+                    <li>E-commerce Solutions</li>
+                    <li>Web Application Development</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Software Development -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services10.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Software Development</h5>
+                  <ul class="custom-list">
+                    <li>Custom Software Development</li>
+                    <li>Enterprise Software Solutions</li>
+                    <li>API Development & Integration</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Mobile App Development -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services11.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Mobile App Development</h5>
+                  <ul class="custom-list">
+                    <li>iOS & Android App Development</li>
+                    <li>Cross-Platform App Development</li>
+                    <li>Mobile UI/UX Design</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Cloud Computing -->
+          <div class="col-md-6 col-lg-4">
+            <a href="services-list-details.html">
+              <div class="service-card">
+                <div class="icon-box-services">
+                  <div class="upper-layer">
+                    <i class="fal fa-arrow-right"></i>
+                  </div>
+                  <img src="images/services/services12.svg" alt="" />
+                </div>
+                <div class="p-4">
+                  <h5 class="mb-3">Cloud Computing</h5>
+                  <ul class="custom-list">
+                    <li>Cloud Migration Services</li>
+                    <li>Serverless Architecture</li>
+                    <li>Managed Cloud Services</li>
+                  </ul>
+                  <button class="btn btn-readmore">Read More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="need-talk text-center">
+      <div class="need-talk-value">
+        <p>Services</p>
+        <h2 class="section-title text-white">
+          Need Any Kind Of IT Solution For
+        </h2>
+        <span>Your Business?</span>
+        <button class="btn-primary-custom mt-3 d-inline">Get In Touch</button>
+      </div>
+    </section>
+
+    <section class="work-process position-relative">
+      <div class="container">
+        <img
+          src="images/hero_shape_3_1 4.png"
+          class="left-svg-animation"
+          alt=""
+        />
+        <div class="row mb-4 align-items-center">
+          <div class="col">
+            <div class="head-box">
+              <span class="head-para-text"> WORK PROCESS</span>
+              <h2>
+                How to work
+                <span class="high">it! </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <img
+          src="images/hero_shape_3_1 4.png"
+          class="right-svg-animation"
+          alt=""
+        />
+        <div class="row position-relative justify-content-between">
+          <div class="col-md-3 col-sm-6 step">
+            <div class="step-number">01</div>
+            <div class="step-icon">
+              <img src="images/howitwork1.svg" alt="" />
+            </div>
+            <h3>Select A Project</h3>
+            <div class="connector"></div>
+          </div>
+          <div class="col-md-3 col-sm-6 step">
+            <div class="step-number">02</div>
+            <div class="step-icon">
+              <img src="images/howitwork2.svg" alt="" />
+            </div>
+            <h3>Project Analysis</h3>
+            <div class="connector"></div>
+          </div>
+          <div class="col-md-3 col-sm-6 step">
+            <div class="step-number">03</div>
+            <div class="step-icon">
+              <img src="images/howitwork3.svg" alt="" />
+            </div>
+            <h3>Plan Execute</h3>
+            <div class="connector"></div>
+          </div>
+          <div class="col-md-3 col-sm-6 step">
+            <div class="step-number">04</div>
+            <div class="step-icon">
+              <img src="images/howitwork4.svg" alt="" />
+            </div>
+            <h3>Deliver Result</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="row mb-4 align-items-center">
+          <div class="col">
+            <div class="head-box">
+              <span class="head-para-text">contact us</span>
+              <h2>
+                Your Solution
+                <span class="high"> Our Solutions. </span>
+              </h2>
+              <p>Send Us a Message And We Will Get Back to You Soon.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row contact-info">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <div class="">
+              <div class="info-box">
+                <img src="images/contacticons1.svg" alt="" />
+                <div>
+                  <h4>Give Us a Call</h4>
+                  <p>
+                    Whether You Need Support or Have Queries Give Us a Call.<br />0713
+                    245 6776
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-box">
+                <img src="images/contacticons2.svg" alt="" />
+                <div>
+                  <h4>Send Us An Email</h4>
+                  <p>
+                    Drop Us a Message With Your Queries Or Any Questions.<br />info.ngis@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-box">
+                <img src="images/contacticons3.svg" alt="" />
+                <div>
+                  <h4>Visit Our Office</h4>
+                  <p>
+                    Visit Our Office With Your Project In Your Mind.<br />5857
+                    Owens Avenue, Suite 300
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="">
+              <form>
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Phone Number"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    rows="4"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary-custom">
+                  Send Your Inquiry
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-sm-5">
+            <div class="footer-logo">
+              <img src="images/footer-logo.png" />
+            </div>
+          </div>
+          <div class="col-sm-7">
+            <div class="row">
+              <div class="col-sm-5">
+                <h2 class="ps-lg-4 my-4">Get Insights From The Experts</h2>
+              </div>
+              <div class="col-sm-7">
+                <div class="">
+                  <form class="subscription-form">
+                    <input type="email" placeholder="Enter Your Mail Id" />
+                    <button class="btn btn-primary-custom" type="submit">
+                      Subscribe
+                    </button>
+                  </form>
+                  <div class="privacy-check">
+                    <input type="checkbox" id="privacyCheck" />
+                    <label for="privacyCheck">
+                      By Subscribing I Accept The <a href="#">Privacy Policy</a>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-box-footer pb-5" />
+        <div class="footer-content">
+          <div class="footer-section col-auto">
+            <h5>PAGE</h5>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section col-auto">
+            <h5>INSIGHTS</h5>
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Data Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-section col-auto">
+            <h5>SERVICES</h5>
+            <ul>
+              <li><a href=""> Custom WordPress & Shopify Development </a></li>
+              <li><a href=""> Web & Web Application Development </a></li>
+              <li><a href=""> Frontend & Backend Development </a></li>
+              <li><a href=""> Cloud & SaaS Development </a></li>
+              <li>
+                <a href=""> QuickBooks & Payment Services Integration </a>
+              </li>
+              <li><a href=""> Custom API And Webhook Integrations </a></li>
+            </ul>
+          </div>
+          <div class="footer-section col-auto">
+            <h5>FOLLOW</h5>
+            <p>info.ngis@gmail.com</p>
+            <p>
+              5857 Owens Avenue, Suite 300<br />Carlsbad, California 92008 USA
+            </p>
+            <div class="social-links">
+              <a href="#" class="me-2"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class=""><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2024 NGIS. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
